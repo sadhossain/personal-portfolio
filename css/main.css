@@ -1,0 +1,172 @@
+
+/* Global CSS */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.2;
+    color: #3E3E3E;
+}
+img{
+    width: 80%;
+}
+h1::before {
+    content: "";
+    width: 4px;
+    height: 130px;
+    position: absolute;
+    background-color: #FF5959;
+    left: 134px;
+    top: 134px;
+}
+
+h1{    
+    font-family: "Yeseva One", cursive;
+    font-size: 60px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.orange{
+    color: #FFAD5A;
+}
+
+.hero{
+    display: flex;
+}
+.left-content{
+    width: 60%;
+    margin: 60px 100px;
+    padding: 50px;
+}
+.left-content p {
+    width: 78%;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.red-btn {
+    text-decoration: none;
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: 400;
+    display: inline-block;
+}
+small {
+    font-size: 16px;
+    color: #434343;
+    margin-top: 35px;
+    display: block;
+}
+
+.right-content{
+    width: 40%;
+}
+
+/* Mission Section */
+
+.mission{
+    width: 1200px;
+    margin: 0 auto;
+}
+.mission h2{
+    text-align: center;
+    font-size: 48px;
+    color: #13103A;
+}
+.mission img{
+    width: 130px;
+    height: auto;
+}
+.mission-item{
+    display: flex;
+}
+.single-mission {
+    background-color: rgba(255, 89, 89, 0.1);
+    margin-right: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+.single-mission h3{
+    font-size: 24px;
+    margin: 15px 0;
+}
+.single-mission:first-child{
+    background-color: rgba(79, 157, 166, 0.1);
+}
+.single-mission:last-child{
+    background-color: rgba(255, 244, 214, 1);
+}
+
+.develop{
+    width: 1200px;   
+    display: flex;
+    margin: 0 auto;
+    padding: 100px 0;
+}
+.develop img{
+    width: 400px;
+}
+.develop-image{
+    margin-right: 70px;
+}
+.develop-content{
+    padding: 50px;
+}
+.develop-content h3, .global-community h3{
+    color: #333;
+    font-size: 36px;
+    line-height: 2;
+}
+.develop-content p, .global-community p{
+    margin-bottom: 30px;
+    line-height: 1.5;
+}
+
+/* global commiunity section */
+.global-community {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+.global-content{        
+    padding: 50px 0;
+    width: 60%;
+    margin-right: 100px;
+}
+.global-community img{
+    width: 400px;
+}
+
+footer {
+    width: 100%;
+    background-color: #0B0D17;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px 0;
+    margin-top: 100px;
+}
+footer h2{
+    font-family: 'Lobster', cursive;
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}           
+
+footer h2 span{
+    color: #FF5959;
+}
+
+footer p{
+    color: #D9DBE1;
+    font-family: 'Manrope', sans-serif;
+    font-size: 14px;
+}
